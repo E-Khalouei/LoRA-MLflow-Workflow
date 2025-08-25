@@ -4,4 +4,9 @@ We use the [GLUE/SST-2 dataset](https://www.tensorflow.org/datasets/catalog/glue
 
 
 This is as a learning process for me to learn PEFT specially using LORA  and apply the mlflow. i work with image dataset and text dataset. 
-for image dataset, i follow the steps same as https://huggingface.co/docs/peft/en/task_guides/lora_based_methods just i change the data set: https://huggingface.co/datasets/zh-plus/tiny-imagenet and also for process of preaper data for model i remove the aumentation. Note: the hyperparamers doesnt set based on the best value. i just want to the code run fast. to check everything works best.
+for image dataset, i follow the steps same as https://huggingface.co/docs/peft/en/task_guides/lora_based_methods just i change the data set: https://huggingface.co/datasets/zh-plus/tiny-imagenet and also for process of preaper data for model i remove the aumentation. 
+
+For text dataset, i follow the steps same as https://www.kaggle.com/code/yannicksteph/nlp-fine-tuning-sentiment-analysis also https://huggingface.co/docs/transformers/en/main_classes/tokenizer. I add the mlflow to save the model and can track it. 
+
+
+Note: the hyperparamers doesnt set based on the best value. i just want to the code run fast. to check everything works best.
