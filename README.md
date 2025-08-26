@@ -26,4 +26,6 @@ For the text dataset, I followed the general workflow from:
 5. Log metrics and models with **MLflow**. 
 
 
-Note: the hyperparamers doesnt set based on the best value. i just want to the code run fast. to check everything works best.
+## ⚠️ Notes
+
+- The hyperparameters in this repo are **not optimized for best performance**.  
