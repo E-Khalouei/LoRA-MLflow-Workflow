@@ -2,7 +2,8 @@
 
 For the text dataset, I followed the general workflow from:  
 - [Kaggle notebook: NLP Fine-Tuning Sentiment Analysis](https://www.kaggle.com/code/yannicksteph/nlp-fine-tuning-sentiment-analysis)  
-- [Hugging Face Tokenizer documentation](https://huggingface.co/docs/transformers/en/main_classes/tokenizer)  
+- [Hugging Face Tokenizer documentation](https://huggingface.co/docs/transformers/en/main_classes/tokenizer)
+- [LoRA-based Methods (Hugging Face Docs)](https://huggingface.co/docs/peft/en/task_guides/lora_based_methods)
 
 ### 🔧 Key Differences in This Project
 - Used the **NSMC Korean dataset** instead of English datasets.  
