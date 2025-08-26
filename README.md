@@ -20,7 +20,7 @@ For the text dataset, I followed the general workflow from:
 
 #  Fine-Tuning ViT with LoRA on Tiny-ImageNet
 
-This example follows the Hugging Face PEFT guide; I used the same code but with a different dataset (Tiny-ImageNet):  
+This example follows the Hugging Face PEFT guide; I used the same code (with the augmentation process removed) but with a different dataset (Tiny-ImageNet):  
 👉 [LoRA-based Methods (Hugging Face Docs)](https://huggingface.co/docs/peft/en/task_guides/lora_based_methods)
 
 
