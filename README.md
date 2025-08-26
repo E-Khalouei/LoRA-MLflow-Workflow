@@ -8,7 +8,7 @@ For the text dataset, I followed the general workflow from:
 - Used the **NSMC Korean dataset** instead of English datasets.  
 - Fine-tuned the **`klue/roberta-base`** model.  
 - Added **LoRA (Parameter-Efficient Fine-Tuning)** for efficient training.  
-- Integrated **MLflow** to save models and track experiments directly in Google Colab.  
+- Integrated [**MLflow**](https://mlflow.org/docs/latest/) to save models and track experiments.  
 
 ### 📊 Workflow
 1. Load dataset (`datasets` library).  
