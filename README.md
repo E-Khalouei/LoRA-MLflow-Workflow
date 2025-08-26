@@ -1,11 +1,3 @@
-# LoRA-MLflow Workflow
-
-We use the [GLUE/SST-2 dataset](https://www.tensorflow.org/datasets/catalog/glue#gluesst2), based on the Stanford Sentiment Dataset of movie review sentences labeled as positive or negative. 
-
-
-This is as a learning process for me to learn PEFT specially using LORA  and apply the mlflow. i work with image dataset and text dataset. 
-for image dataset, i follow the steps same as https://huggingface.co/docs/peft/en/task_guides/lora_based_methods just i change the data set: https://huggingface.co/datasets/zh-plus/tiny-imagenet and also for process of preaper data for model i remove the aumentation. 
-
  # LoRA-MLflow Workflow (Text dataset)
 
 For the text dataset, I followed the general workflow from:  
@@ -23,7 +15,14 @@ For the text dataset, I followed the general workflow from:
 2. Tokenize with Hugging Face `AutoTokenizer`.  
 3. Apply LoRA with `peft`.  
 4. Train and evaluate with `Trainer`.  
-5. Log metrics and models with **MLflow**. 
+5. Log metrics and models with **MLflow**.
+
+
+#  Fine-Tuning ViT with LoRA on Tiny-ImageNet
+
+This example follows the Hugging Face PEFT guide; I used the same code but with a different dataset (Tiny-ImageNet):  
+👉 [LoRA-based Methods (Hugging Face Docs)](https://huggingface.co/docs/peft/en/task_guides/lora_based_methods)
+
 
 
 ## ⚠️ Notes
